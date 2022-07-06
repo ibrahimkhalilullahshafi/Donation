@@ -1,0 +1,135 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-image: url("images/donation13.jpg");
+    background-size: 1600px 600px;
+    background-repeat: no-repeat;
+}
+
+.donation-button {
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, cornflowerblue);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: grid;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    color: coral;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: darksalmon;
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+
+}
+
+.donation-amount {
+    margin-top: 150px;
+}
+
+.plan-title {
+    text-align: center;
+}
+
+.plans {
+    display: flex;
+}
+
+.type {
+    text-align: center;
+    border: 0px solid grey;
+    margin: 10px 40px 40px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 8px 8px 16px gray;
+    background-color: bisque;
+}
+
+.shelter {
+    width: 60px;
+}
+
+.education {
+    width: 75px;
+}
+
+.meal {
+    width: 70px;
+}
+
+.sylhet-flood {
+    display: flex;
+    text-align: center;
+    border: 0px solid grey;
+    margin: 10px 40px 40px 10px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 8px 8px 16px gray;
+    background-color: bisque;
+}
+
+.newsletter {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.email-bar {
+    border: 0px solid grey;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 8px 8px 16px gray;
+    background-color: #006599;
+    border-radius: 5px 0px 0px 5px;
+
+}
+
+.sub-button {
+    font-weight: bold;
+    color: chocolate;
+    border: 0px solid grey;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 8px 8px 16px gray;
+    background-color: #ffdb00;
+    border-radius: 0px 5px 5px 0px;
+}
+
+footer {
+    background-color: cadetblue;
+    height: 60px;
+}
+
+small {
+    font-size: small;
+    margin-left: 520px;
+
+}
+
+.ibrahim {
+    width: 150px;
+    float: right;
+}
