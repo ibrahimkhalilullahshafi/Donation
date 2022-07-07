@@ -5,7 +5,7 @@ body {
     padding: 0px;
     border: 0px;
     background-image: url("images/donation13.jpg");
-    background-size: 1600px 600px;
+    background-size: 1600px 620px;
     background-repeat: no-repeat;
 }
 
@@ -21,9 +21,12 @@ body {
     margin: 0;
     position: absolute;
     top: 70%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    left: 40%;
+
+}
+
+.front-page {
+    margin-bottom: 200px;
 }
 
 h1 {
@@ -48,8 +51,63 @@ p {
 }
 
 .donation-amount {
-    margin-top: 150px;
+    margin: 300px 50px 300px 50px;
 }
+
+.button {
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, cornflowerblue);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    display: grid;
+    margin: 0;
+    position: absolute;
+    top: 185%;
+    left: 40%;
+
+}
+
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    padding: 0px;
+    margin: 60px 40px 10px 40px;
+}
+
+.item {
+    flex: 1;
+    font-size: large;
+    border: none;
+    padding: 0px;
+    margin: 10px 10px 10px 10px;
+    width: 300px;
+    text-align: center;
+
+}
+
+#item2 {
+    flex: 1;
+    font-size: 18pt;
+    height: 150px;
+    width: 50px;
+    padding: 0px;
+    text-align: center;
+}
+
+.other-amount {
+    font-size: large;
+    text-align: center;
+    border: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 
 .plan-title {
     text-align: center;
@@ -84,7 +142,7 @@ p {
     display: flex;
     text-align: center;
     border: 0px solid grey;
-    margin: 10px 40px 40px 10px;
+    margin: 60px 40px 80px 40px;
     padding: 10px 10px 10px 10px;
     box-shadow: 8px 8px 16px gray;
     background-color: bisque;
@@ -94,6 +152,7 @@ p {
     display: flex;
     text-align: center;
     justify-content: center;
+    margin: 10px 10px 10px 10px;
 
 }
 
