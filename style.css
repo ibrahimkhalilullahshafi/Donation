@@ -1,5 +1,4 @@
 body {
-    font-family: 'Nunito', sans-serif;
     font-size: 30px;
     margin: 0px;
     padding: 0px;
@@ -12,7 +11,7 @@ body {
 .donation-button {
     text-align: center;
     text-decoration: none;
-    background-image: linear-gradient(skyblue, cornflowerblue);
+    background-image: linear-gradient(orange, crimson);
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
@@ -20,7 +19,7 @@ body {
     display: grid;
     margin: 0;
     position: absolute;
-    top: 70%;
+    top: 85%;
     left: 40%;
 
 }
@@ -30,23 +29,30 @@ body {
 }
 
 h1 {
+    font-family: 'Carter One', cursive;
+    font: bolder;
     color: coral;
     text-align: center;
 }
 
 h2 {
+    font-family: 'Carter One', cursive;
     text-align: center;
+    color: firebrick;
 }
 
 h3 {
-    color: darksalmon;
+    font-family: 'Carter One', cursive;
+    color: rgb(228, 216, 185);
     text-align: center;
     padding: 20px;
 }
 
 p {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
     font-size: large;
+    font-weight: bold;
 
 }
 
@@ -65,8 +71,8 @@ p {
     display: grid;
     margin: 0;
     position: absolute;
-    top: 185%;
-    left: 40%;
+    top: 200%;
+    left: 43%;
 
 }
 
@@ -124,6 +130,7 @@ p {
     padding: 10px 10px 10px 10px;
     box-shadow: 8px 8px 16px gray;
     background-color: bisque;
+
 }
 
 .shelter {
@@ -145,13 +152,14 @@ p {
     margin: 60px 40px 80px 40px;
     padding: 10px 10px 10px 10px;
     box-shadow: 8px 8px 16px gray;
-    background-color: bisque;
+    background-color: rgb(197, 206, 212);
 }
+
 
 .frpbutton {
     text-align: center;
     text-decoration: none;
-    background-image: linear-gradient(skyblue, cornflowerblue);
+    background-image: linear-gradient(orange, brown);
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
@@ -159,7 +167,7 @@ p {
     display: grid;
     margin: 0;
     position: absolute;
-    top: 400%;
+    top: 415%;
     left: 21%;
     font-size: small;
 
