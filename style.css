@@ -19,8 +19,8 @@ body {
     display: grid;
     margin: 0;
     position: absolute;
-    top: 85%;
-    left: 40%;
+    top: 85vh;
+    left: 88vh;
 
 }
 
@@ -71,8 +71,8 @@ p {
     display: grid;
     margin: 0;
     position: absolute;
-    top: 200%;
-    left: 43%;
+    top: 200vh;
+    left: 94vh;
 
 }
 
@@ -167,8 +167,8 @@ p {
     display: grid;
     margin: 0;
     position: absolute;
-    top: 415%;
-    left: 21%;
+    top: 415vh;
+    left: 45vh;
     font-size: small;
 
 }
