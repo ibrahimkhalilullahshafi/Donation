@@ -148,6 +148,23 @@ p {
     background-color: bisque;
 }
 
+.frpbutton {
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, cornflowerblue);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 400;
+    display: grid;
+    margin: 0;
+    position: absolute;
+    top: 400%;
+    left: 21%;
+    font-size: small;
+
+}
+
 .newsletter {
     display: flex;
     text-align: center;
